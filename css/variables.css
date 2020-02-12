@@ -1,0 +1,13 @@
+:root {
+    --pink: #f7cac9;
+    --blue: #9c92d1;
+    --greyPurple: rgb(135, 117, 136);
+    --fontColorGrey: #484848;
+  
+    --headingFont: "Sunrise";
+  }
+  
+  @font-face {
+    font-family: "Sunrise";
+    src: url("..assets/Sunrise.otf");
+  }

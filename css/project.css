@@ -1,0 +1,22 @@
+.projectsHeader {
+    font-family: var(--headingFont);
+    font-size: 80px;
+    color: var(--fontColorGrey);
+  }
+
+.portfolioContainer {
+  display: grid;
+  grid-gap: 50px;
+}
+
+.cssCreatureImage {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.staticLayoutImage {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}

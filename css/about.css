@@ -1,0 +1,10 @@
+.aboutMeImage {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.aboutMeHeader {
+    font-family: var(--headingFont);
+    color: var(--fontColorGrey)
+}

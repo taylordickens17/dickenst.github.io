@@ -1,0 +1,23 @@
+.parallax {
+    background: url("https://images.pexels.com/photos/1158961/pexels-photo-1158961.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") fixed;
+    background-size: cover;
+    color: #484848;
+    height: 100vh;
+  }
+  
+  .paraContainer {
+    padding-top: 25%;
+    text-align: center;
+  }
+
+  .paraHeader {
+    font-family: var(--headingFont);
+    font-size: 110px;
+    color: #ffffff;
+  }
+
+  .paraText {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
