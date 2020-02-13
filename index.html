@@ -52,23 +52,17 @@
                 <h1 class="aboutMeHeader" style="text-align: center;">About Me</h1>
             </div>
             <div class="aboutMeMain">
-                <p>Pudding muffin cheesecake cookie. Apple pie tart tart bear claw toffee lemon drops ice cream. Cake
-                    tart
-                    cheesecake macaroon. Tiramisu cheesecake bear claw icing donut.
-                    Candy pudding pastry wafer. Cheesecake bonbon dessert cupcake. Halvah cookie carrot cake. Sugar plum
-                    topping sweet.
-                    Dragée jelly ice cream danish gummi bears biscuit tootsie roll. Dessert cotton candy apple pie
-                    carrot
-                    cake bonbon powder gummies biscuit. Soufflé ice cream macaroon cookie apple pie pudding tootsie
-                    roll.
-                    Apple pie sugar plum biscuit.
-                    Cheesecake apple pie gummies. Cake sweet roll wafer. Powder chocolate bar dragée dragée.
-                    Lemon drops dragée apple pie. Chocolate cake toffee cheesecake. Brownie candy canes tiramisu candy
-                    canes. Pastry dragée macaroon chocolate chocolate cake liquorice topping pudding.</p>
+                <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was enrolled at
+                    Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of odd jobs.
+                    I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From there,
+                    I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of courses
+                    about coding and the theory. The classes were informative and helpful, however, it felt too slow of
+                    a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a career in
+                    tech.</p>
             </div>
         </section>
         <!--End About Me-->
-
+        <hr>
         <!--Porfolio-->
         <section id="projects">
             <div class="portfolioText">
@@ -77,44 +71,54 @@
             <div class="portfolioContainer">
                 <div id="cssCreature" class="portfolioGrid">
                     <div id="cssCreatureText">
-                        <div class="cssCreatureWrap">
-                            <a href="https://codepen.io/taylordickens17/pen/WNbWXxB" title="css-Katara"></a>
-                            <img src="../portfolio/assets/katara.png" class="cssCreatureImage" alt="katara">
-                        </div>
-                        <p>Lemon drops dragée apple pie. Chocolate cake toffee cheesecake. Brownie candy canes tiramisu
-                            candy canes. Pastry dragée macaroon chocolate chocolate cake liquorice topping pudding.</p>
+                        <h2 id="cssCreatureHeading">Css Creature</h2>
+                        <p>This is a CSS Creature that I made using exlusively CSS properties. The creature is Katara
+                            from 'Avatar the Last Airbender'. An animation of a wave can be seen skimming across the
+                            page over Katara. This was our first project at 1150.</p>
+                    </div>
+                    <div class="cssCreatureWrap">
+                        <a href="https://codepen.io/taylordickens17/pen/WNbWXxB" title="css-Katara"><img
+                                src="../portfolio/assets/katara.png" class="cssCreatureImage" alt="katara"></a>
                     </div>
                 </div>
                 <div id="staticLayout" class="portfolioGrid">
                     <div id="staticLayoutText">
-                        <div class="staticLayoutWrap">
-                            <a href="https://taylordickens17.github.io/staticLayout/" title="static-Layout"></a>
-                            <img src="../portfolio/assets/staticLayout.png" alt="staticLayout" class="staticLayoutImage"
-                                </div> <p>Lemon drops dragée apple pie. Chocolate cake toffee cheesecake. Brownie candy
-                            canes tiramisu
-                            candy canes. Pastry dragée macaroon chocolate chocolate cake liquorice topping pudding.</p>
-                        </div>
+                        <h2 id="staticLayoutHeading">Static Layout</h2>
+                        <p>The Static Layout is a web page that looks like the home landing page of 1150 Academy. It has
+                            clickable links to actual 1150 pages. You can scroll down and look at the available classes.
+                            At the bottom of the page there is a form where you can submit your email, name, and a
+                            comment.</p>
                     </div>
-                    <div id="api" class="portfolioGrid">
-                        <div id="apiText">
-                            <div id="apiImage">
-
-                            </div>
-                            <p>Lemon drops dragée apple pie. Chocolate cake toffee cheesecake. Brownie candy canes
-                                tiramisu
-                                candy canes. Pastry dragée macaroon chocolate chocolate cake liquorice topping pudding.
-                            </p>
-                        </div>
+                    <div class="staticLayoutWrap">
+                        <a href="https://taylordickens17.github.io/staticLayout/" title="static-Layout"><img
+                                src="../portfolio/assets/staticLayout.png" alt="staticLayout"
+                                class="staticLayoutImage"></a>
                     </div>
                 </div>
+                <div id="api" class="portfolioGrid">
+                    <div id="apiText">
+                        <h2 id="apiHeading">Ghibli API</h2>
+                        <p>This is a Ghibli API. It generates every movie from Studio Ghibli by pressing a button. There
+                            is a blossom animation effect over the layout. Once generated, the movies are displayed in a
+                            container that is scrollable.</p>
+                    </div>
+                    <div id="apiWrap">
+                        <a href="https://td-ghibli-api-c0135.firebaseapp.com" title="static-Layout"><img
+                                src="../portfolio/assets/API.png" alt="API" class="apiImage"></a>
+                    </div>
+                </div>
+            </div>
         </section>
         <!--End Portfolio-->
 
         <!--Resume-->
         <section id="resume">
             <div class="resumeText">
-                <h1 class="resumeHeader" style="text-align: center;">Resume</h1>
+                <p id="resumeDescript">See my credentials</p>
+                <a href="https://www.luminpdf.com/viewer/5e44c401b034c6001188b65d"><button
+                        id="resumeBttn">Resumé</button></a>
             </div>
+
         </section>
         <!--End Resume-->
 
@@ -169,11 +173,11 @@
         <!--Footer-->
         <section>
             <footer>
-                <ul>
-                    <li><a href="https://github.com/taylordickens17"></a></li>
-                    <li><a href="https://www.linkedin.com/in/justintaylordickens/"></a></li>
-                </ul>
-                <p>© Taylor Dickens 2020</p>
+                <a href="https://www.linkedin.com/in/justintaylordickens/"><img src="../portfolio/assets/linkedin.png"
+                        alt="linkedin" class="icons"></a>
+                <a href="https://github.com/taylordickens17"><img src="../portfolio/assets/github.png" alt="github"
+                        class="icons"></a>
+                <p id="footerCopy">© Taylor Dickens 2020</p>
             </footer>
         </section>
         <!--End Footer-->

@@ -1,7 +1,13 @@
 .projectsHeader {
+    margin-top: 100px;
     font-family: var(--headingFont);
     font-size: 80px;
     color: var(--fontColorGrey);
+    letter-spacing: 2px;
+  }
+
+  #projects {
+    height: 210vh;
   }
 
 .portfolioContainer {
@@ -10,13 +16,58 @@
 }
 
 .cssCreatureImage {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  border-radius: 0px 300px 300px 0px;
+  width: 700px;
+  height: 500px;
+ 
 }
 
-.staticLayoutImage {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+#cssCreatureText {
+  color: var(--fontColorGrey);
+  position: absolute;
+  padding: 0px 500px 50px 400px;
+  transform: translate(25%, 100%);
+  z-index: 5 !important;
+
 }
+
+.cssCreatureImage:hover {
+  transform: translate3D(0, -10px, 0);
+}  
+
+.staticLayoutImage {
+  border-radius: 300px 0px 0px 300px;
+  width: 700px;
+  height: 500px;
+  float: right;
+}
+
+#staticLayoutText {
+  color: var(--fontColorGrey);
+  position: absolute;
+  padding: 0px 500px 50px 400px;
+  transform: translate(-20%, 100%);
+  z-index: 5 !important;
+}
+
+.staticLayoutImage:hover {
+  transform: translate3D(0, -10px, 0);
+}  
+
+.apiImage {
+  border-radius: 0px 300px 300px 0px;
+  width: 700px;
+  height: 500px;;
+}
+
+#apiText {
+  color: var(--fontColorGrey);
+  position: absolute;
+  padding: 0px 500px 50px 400px;
+  transform: translate(25%, 100%);
+  z-index: 5 !important;
+}
+
+.apiImage:hover {
+  transform: translate3D(0, -10px, 0);
+}  

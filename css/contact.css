@@ -1,0 +1,10 @@
+#contact {
+    height: 100vh;
+}
+
+.contactMeHeader{
+    font-family: var(--headingFont);
+    font-size: 80px;
+    color: var(--fontColorGrey);
+    margin-top: 15%;
+}

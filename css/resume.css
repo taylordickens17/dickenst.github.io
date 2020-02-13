@@ -1,0 +1,29 @@
+#resumeDescript{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.resumeText{
+       background: url("../assets/peonies.jpeg") fixed;
+        background-size: cover;
+        color: #484848;
+        height: 50vh;
+}
+
+#resumeBttn {
+    border: none;
+    background-color: var(--fontColorGrey);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: static;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    margin-left: 45%;
+    letter-spacing: 3px;
+    z-index: 5;
+}

@@ -34,9 +34,10 @@ nav a:visited {
 }
 
 nav.purple {
-    background-color: var(--greyPurple);
+    background-color: var(--fontColorGrey);
     height: 70px;
     animation-delay: 3s;
+    z-index: 6;
 }
 
 .logo {

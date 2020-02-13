@@ -3,6 +3,7 @@
     background-size: cover;
     color: #484848;
     height: 100vh;
+    box-shadow: 1px 11px 30px var(--fontColorGrey);
   }
   
   .paraContainer {
