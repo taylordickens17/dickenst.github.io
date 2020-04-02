@@ -1,73 +1,32 @@
-.projectsHeader {
-    margin-top: 100px;
-    font-family: var(--headingFont);
-    font-size: 80px;
-    color: var(--fontColorGrey);
-    letter-spacing: 2px;
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 2em;
   }
-
-  #projects {
-    height: 210vh;
-  }
-
-.portfolioContainer {
-  display: grid;
-  grid-gap: 50px;
 }
 
-.cssCreatureImage {
-  border-radius: 0px 300px 300px 0px;
-  width: 700px;
-  height: 500px;
- 
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
-
-#cssCreatureText {
-  color: var(--fontColorGrey);
-  position: absolute;
-  padding: 0px 500px 50px 400px;
-  transform: translate(25%, 100%);
-  z-index: 5 !important;
-
-}
-
-.cssCreatureImage:hover {
-  transform: translate3D(0, -10px, 0);
-}  
-
-.staticLayoutImage {
-  border-radius: 300px 0px 0px 300px;
-  width: 700px;
-  height: 500px;
-  float: right;
-}
-
-#staticLayoutText {
-  color: var(--fontColorGrey);
-  position: absolute;
-  padding: 0px 500px 50px 400px;
-  transform: translate(-20%, 100%);
-  z-index: 5 !important;
-}
-
-.staticLayoutImage:hover {
-  transform: translate3D(0, -10px, 0);
-}  
-
-.apiImage {
-  border-radius: 0px 300px 300px 0px;
-  width: 700px;
-  height: 500px;;
-}
-
-#apiText {
-  color: var(--fontColorGrey);
-  position: absolute;
-  padding: 0px 500px 50px 400px;
-  transform: translate(25%, 100%);
-  z-index: 5 !important;
-}
-
-.apiImage:hover {
-  transform: translate3D(0, -10px, 0);
-}  

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Taylor Dickens Portfolio</title>
     <!--Bootstrap Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
@@ -19,169 +19,157 @@
 </head>
 
 <body>
+    <!--NavBar-->
+    <section id="navMenu">
+        <nav>
+            <a class="logo" href="#">Taylor Dickens</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!--End Navbar-->
 
-    <div id="wrapper">
-        <!--NavBar-->
-        <section id="navMenu">
-            <nav>
-                <ul>
-                    <li><a href="#aboutMe">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="logo">Taylor Dickens</div>
-            </nav>
-        </section>
-        <!--End Navbar-->
+    <!--Parallax-->
+    <section>
+        <div class="parallax">
+            <div class="paraContainer">
+                <h1 class="paraHeader">Taylor Dickens</h1>
+                <p class="paraText">Web Developer</p>
+            </div>
+        </div>
+    </section>
+    <!--End Parallax-->
 
-        <!--Parallax-->
-        <section>
-            <div class="parallax">
-                <div class="paraContainer">
-                    <h1 class="paraHeader">Taylor Dickens</h1>
-                    <p class="paraText">Web Developer</p>
+    <!--About Me-->
+    <section id="aboutMe">
+        <div class="aboutMeText">
+            <h1 class="aboutMeHeader">About Me</h1>
+        </div>
+        <div class="aboutMeMain">
+            <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was enrolled at
+                Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of odd jobs.
+                I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From there,
+                I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of courses
+                about coding and the theory. The classes were informative and helpful, however, it felt too slow of
+                a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a career in
+                tech.</p>
+        </div>
+    </section>
+    <!--End About Me-->
+    <hr>
+    <!--Porfolio-->
+    <section id="projects">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
                 </div>
             </div>
-        </section>
-        <!--End Parallax-->
 
-        <!--About Me-->
-        <section id="aboutMe">
-            <div class="aboutMeText">
-                <h1 class="aboutMeHeader" style="text-align: center;">About Me</h1>
-            </div>
-            <div class="aboutMeMain">
-                <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was enrolled at
-                    Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of odd jobs.
-                    I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From there,
-                    I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of courses
-                    about coding and the theory. The classes were informative and helpful, however, it felt too slow of
-                    a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a career in
-                    tech.</p>
-            </div>
-        </section>
-        <!--End About Me-->
-        <hr>
-        <!--Porfolio-->
-        <section id="projects">
-            <div class="portfolioText">
-                <h1 class="projectsHeader" style="text-align: center;">Projects</h1>
-            </div>
-            <div class="portfolioContainer">
-                <div id="cssCreature" class="portfolioGrid">
-                    <div id="cssCreatureText">
-                        <h2 id="cssCreatureHeading">Css Creature</h2>
-                        <p>This is a CSS Creature that I made using exlusively CSS properties. The creature is Katara
-                            from 'Avatar the Last Airbender'. An animation of a wave can be seen skimming across the
-                            page over Katara. This was our first project at 1150.</p>
-                    </div>
-                    <div class="cssCreatureWrap">
-                        <a href="https://codepen.io/taylordickens17/pen/WNbWXxB" title="css-Katara"><img
-                                src="../portfolio/assets/katara.png" class="cssCreatureImage" alt="katara"></a>
-                    </div>
-                </div>
-                <div id="staticLayout" class="portfolioGrid">
-                    <div id="staticLayoutText">
-                        <h2 id="staticLayoutHeading">Static Layout</h2>
-                        <p>The Static Layout is a web page that looks like the home landing page of 1150 Academy. It has
-                            clickable links to actual 1150 pages. You can scroll down and look at the available classes.
-                            At the bottom of the page there is a form where you can submit your email, name, and a
-                            comment.</p>
-                    </div>
-                    <div class="staticLayoutWrap">
-                        <a href="https://taylordickens17.github.io/staticLayout/" title="static-Layout"><img
-                                src="../portfolio/assets/staticLayout.png" alt="staticLayout"
-                                class="staticLayoutImage"></a>
-                    </div>
-                </div>
-                <div id="api" class="portfolioGrid">
-                    <div id="apiText">
-                        <h2 id="apiHeading">Ghibli API</h2>
-                        <p>This is a Ghibli API. It generates every movie from Studio Ghibli by pressing a button. There
-                            is a blossom animation effect over the layout. Once generated, the movies are displayed in a
-                            container that is scrollable.</p>
-                    </div>
-                    <div id="apiWrap">
-                        <a href="https://td-ghibli-api-c0135.firebaseapp.com" title="static-Layout"><img
-                                src="../portfolio/assets/API.png" alt="API" class="apiImage"></a>
-                    </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
                 </div>
             </div>
-        </section>
-        <!--End Portfolio-->
 
-        <!--Resume-->
-        <section id="resume">
-            <div class="resumeText">
-                <p id="resumeDescript">See my credentials</p>
-                <a href="https://www.luminpdf.com/viewer/5e44c401b034c6001188b65d"><button
-                        id="resumeBttn">Resumé</button></a>
+            <div class="column">
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                </div>
             </div>
 
-        </section>
-        <!--End Resume-->
-
-        <!--Contact-->
-        <section id="contact">
-            <div class="container">
-                <br />
-                <br />
-                <div class="contactMeText">
-                    <h1 class="contactMeHeader" style="text-align: center;">Contact Me</h1>
+            <div class="column">
+                <div class="card">
+                    <h3>Card 4</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <form action="https://formspree.io/maynard.zach23@gmail.com" method="POST">
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                        data-validation-required-message="Please enter your name" name="name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Portfolio-->
+
+    <!--Resume-->
+    <section id="resume">
+        <div class="resumeText">
+            <p id="resumeDescript">See my credentials</p>
+            <a href="assets/Resume2020.pdf" download><button id="resumeBttn">Resume</button></a>
+        </div>
+
+    </section>
+    <!--End Resume-->
+
+    <!--Contact-->
+    <section id="contact">
+        <div class="container">
+            <br />
+            <br />
+            <div class="contactMeText">
+                <h1 class="contactMeHeader" style="text-align: center;">Contact Me</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/maynard.zach23@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name" />
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="forms">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email" id="email"
-                                        required data-validation-required-message="Please enter your email"
-                                        name="_replyto" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                        </div>
+                        <div class="forms">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto" />
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="control-group">
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
-                                        required data-validation-required-message="Please leave a message"
-                                        name="message"></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-lg btn-black">
-                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                    Send Message
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </section>
-        <!--End Contact-->
+        </div>
+    </section>
+    <!--End Contact-->
 
-        <!--Footer-->
-        <section>
-            <footer>
-                <a href="https://www.linkedin.com/in/justintaylordickens/"><img src="../portfolio/assets/linkedin.png"
-                        alt="linkedin" class="icons"></a>
-                <a href="https://github.com/taylordickens17"><img src="../portfolio/assets/github.png" alt="github"
-                        class="icons"></a>
-                <p id="footerCopy">© Taylor Dickens 2020</p>
-            </footer>
-        </section>
-        <!--End Footer-->
-    </div>
+    <!--Footer-->
+    <section>
+        <footer>
+            <a href="https://www.linkedin.com/in/justintaylordickens/"><i src="../portfolio/assets/linkedin.png"
+                    alt="linkedin" class="icons"></i></a>
+            <a href="https://github.com/taylordickens17"><img src="../portfolio/assets/github.png" alt="github"
+                    class="icons"></a>
+            <p id="footerCopy">© Taylor Dickens 2020</p>
+        </footer>
+    </section>
+    <!--End Footer-->
     <!--Script-->
     <section>
         <!--JQuery-->
@@ -208,13 +196,7 @@
                 }
             })
         </script>
-        <!--End Sticky Nav JS-->
-        <script>
-            const nav = document.querySelector('.my-nav')
-            nav.classList.add('animated', 'fadeInDown')
-        </script>
     </section>
-    <!--End Script-->
 </body>
 
 </html>

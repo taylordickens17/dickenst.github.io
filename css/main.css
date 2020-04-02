@@ -8,3 +8,13 @@
 @import "variables.css";
 @import "resume.css";
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      font-family: "Open Sans", sans-serif;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    
