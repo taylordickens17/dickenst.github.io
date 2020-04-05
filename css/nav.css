@@ -42,8 +42,15 @@ nav.purple {
 
 .logo {
     color: #ffffff;
-    padding: 30px 30px;
+    margin-top: 10em;
     font-size: 11px;
     letter-spacing: 1.6px;
     text-transform: uppercase;
 }
+
+@media (max-width: 576px) {
+    #navbarNav {
+        margin-left: 0;
+    }
+ 
+ }

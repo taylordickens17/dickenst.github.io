@@ -8,3 +8,7 @@
     color: var(--fontColorGrey);
     margin-top: 15%;
 }
+
+.btn-dark {
+    background-color: #494e53;
+}

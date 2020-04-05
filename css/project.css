@@ -1,32 +1,90 @@
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500&display=swap');
+
+
+.projectsTitle{
+  font-family: var(--headingFont);
+  font-size: 80px;
+  color: var(--fontColorGrey);
+  margin-top: 5%;
 }
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.card-deck .card  {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5em !important;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 2em;
+.card-body {
+  max-width: 500px;
+}
+
+
+.card-title {
+  color: #6c757d;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-secondary{
+  color: #6c757d;
+  background-color: white;
+  border: 2px solid #6c757d;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.project-link {
+  color: #6c757d
+}
+
+.project-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .card-body{
+      min-width: 382px;
   }
+  .card-deck .card  {
+      margin-right: 0;
+  } 
+
 }
 
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+@media (max-width: 414px) {
+  .card{
+      min-width: 382px;
+  }
+  .card-deck .card  {
+      margin-right: 0;
+  } 
+}
+
+/* IPHONE X */
+@media (max-width: 375px) {
+  .card{
+      min-width: 343px;
+  }
+  .card-deck .card  {
+      margin-right: 0;
+  } 
+}
+
+@media (max-width: 360px) {
+  .card{
+      min-width: 329px;
+  }
+  .card-deck .card  {
+      margin-right: 0;
+  } 
 }

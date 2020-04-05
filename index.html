@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <!--End BootStrap Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--CSS Link-->
     <link rel="stylesheet" ref="text/css" href="./css/main.css" />
     <!--End CSS Link-->
@@ -49,70 +50,92 @@
     <!--End Parallax-->
 
     <!--About Me-->
+    <br>
+    <br>
     <section id="aboutMe">
-        <div class="aboutMeText">
-            <h1 class="aboutMeHeader">About Me</h1>
+        <div class="container">
+            <h1 class="aboutTitle" style="text-align: center;">About Me</h1>
         </div>
-        <div class="aboutMeMain">
-            <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was enrolled at
-                Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of odd jobs.
-                I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From there,
-                I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of courses
-                about coding and the theory. The classes were informative and helpful, however, it felt too slow of
-                a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a career in
-                tech.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="aboutMeMain">
+                        <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was
+                            enrolled at
+                            Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of
+                            odd jobs.
+                            I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From
+                            there,
+                            I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of
+                            courses
+                            about coding and the theory. The classes were informative and helpful, however, it felt too
+                            slow of
+                            a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a
+                            career in
+                            tech.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!--Resume-->
+        <section id="resume">
+            <div class="resumeText">
+                <p id="resumeDescript">See my credentials</p>
+                <a href="assets/Resume2020.pdf" download><button class="resumeBttn">Resume</button></a>
+            </div>
+        </section>
+        <!--End Resume-->
     </section>
     <!--End About Me-->
     <hr>
     <!--Porfolio-->
     <section id="projects">
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <h3>Card 1</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
+        <div class="container">
+            <h1 class="projectsTitle" style="text-align: center;">Projects</h1>
+        </div>
+        <div class="container project-container">
+            <div class="card-deck">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">MyRecords Full CRUD React App</h5>
+                                <p class="card-text">Built the server side with Node.js and the client side with React
+                                    to
+                                    create a full CRUD record collection application for vinyl collectors. The
+                                    Application
+                                    is deployed to Heroku with a cloud instance of Postgres.
+                                </p>
+                                <button type="button" class="btn btn-secondary"><a class="project-link"
+                                        href="https://to-myrecords-client.herokuapp.com/" target="blank">See it Live <i
+                                            class="fas fa-angle-right"></i></a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="column">
-                <div class="card">
-                    <h3>Card 2</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Mars Weather API</h5>
+                            <p class="card-text">Pulls data from NASA’s InSight Mars lander using Vanilla JavaScript,
+                                Bootstrap, HTML, and CSS. </p>
+                            <br />
+                            <br />
+                            <br />
+                            <button type="button" class="btn btn-secondary"><a class="project-link"
+                                    href="https://to-mars-weather-api.web.app/" target="blank">See it Live <i
+                                        class="fas fa-angle-right"></i></a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="column">
-                <div class="card">
-                    <h3>Card 3</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <h3>Card 4</h3>
-                    <p>Some text</p>
-                    <p>Some text</p>
-                </div>
-            </div>
+        </div>
         </div>
     </section>
     <!--End Portfolio-->
-
-    <!--Resume-->
-    <section id="resume">
-        <div class="resumeText">
-            <p id="resumeDescript">See my credentials</p>
-            <a href="assets/Resume2020.pdf" download><button id="resumeBttn">Resume</button></a>
-        </div>
-
-    </section>
-    <!--End Resume-->
-
+    <hr>
     <!--Contact-->
     <section id="contact">
         <div class="container">
@@ -123,7 +146,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <form action="https://formspree.io/maynard.zach23@gmail.com" method="POST">
+                    <form action="https://formspree.io/mbjalklw" method="POST">
                         <div class="control-group">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Your Name" id="name" required
@@ -162,11 +185,14 @@
     <!--Footer-->
     <section>
         <footer>
-            <a href="https://www.linkedin.com/in/justintaylordickens/"><i src="../portfolio/assets/linkedin.png"
-                    alt="linkedin" class="icons"></i></a>
-            <a href="https://github.com/taylordickens17"><img src="../portfolio/assets/github.png" alt="github"
-                    class="icons"></a>
-            <p id="footerCopy">© Taylor Dickens 2020</p>
+            <div class="footerContainer">
+                <a class="icons" href="https://www.linkedin.com/in/justintaylordickens/"><i
+                        class="fa fa-linkedin-square" style="font-size:36px;color:white"></i></a>
+                <a href="https://github.com/taylordickens17" class="icons">
+                    <i class="fa fa-github-square" style="font-size:36px;color:white"></i></i>
+                </a>
+                <p id="footerCopy">© Taylor Dickens 2020</p>
+            </div>
         </footer>
     </section>
     <!--End Footer-->
