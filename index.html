@@ -6,42 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Taylor Dickens Portfolio</title>
-    <!--Bootstrap Link-->
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <!--End BootStrap Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--End Bootstrap-->
     <!--CSS Link-->
     <link rel="stylesheet" ref="text/css" href="./css/main.css" />
     <!--End CSS Link-->
-    <!--Animation Link-->
-    <link rel="stylesheet" href="animate.min.css">
-    <!--End Animation Link-->
 </head>
 
 <body>
     <!--NavBar-->
     <section id="navMenu">
-        <nav>
-            <a class="logo" href="#">Taylor Dickens</a>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <a class="navbar-brand font-weight-normal text-light font-class" id="logo" href="#">Taylor Dickens</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fas fa-bars"></i></span>
             </button>
-            <ul>
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav my-2 my-md-0 mr-md-3" id="navOver">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light nav-hover" href="#aboutMe">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light nav-hover" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light nav-hover" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </section>
     <!--End Navbar-->
 
     <!--Parallax-->
-    <section>
-        <div class="parallax">
-            <div class="paraContainer">
+    <section class="parallax">
+        <div class="container">
+            <div class="paraContainer title-position">
                 <h1 class="paraHeader">Taylor Dickens</h1>
                 <p class="paraText">Web Developer</p>
             </div>
@@ -95,7 +98,7 @@
         </div>
         <div class="container project-container">
             <div class="card-deck">
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3" style="max-width: 540px; min-width: 300px;">
                     <div class="row no-gutters">
                         <div class="col-md-8">
                             <div class="card-body">
@@ -114,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" style="max-width: 540px; min-width: 300px;">
                 <div class="row no-gutters">
                     <div class="col-md-8">
                         <div class="card-body">
@@ -198,19 +201,20 @@
     <!--End Footer-->
     <!--Script-->
     <section>
-        <!--JQuery-->
+        <!--JQuery Link-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <!--End JQuery-->
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+            </script>
+        <!--End JQuery Link-->
         <!--CDN-->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+            </script>
         <!--End CDN-->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+            </script>
+        <script src="https://kit.fontawesome.com/8aa3fe0abe.js" crossorigin="anonymous"></script>
         <!--Sticky Nav JS-->
         <script type="text/javascript">
             $(window).on("scroll", function () {

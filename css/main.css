@@ -13,8 +13,25 @@ html {
   }
   
   body {
-      font-family: "Open Sans", sans-serif;
       max-width: 100%;
       overflow-x: hidden;
     }
     
+    @media only screen and (max-width : 768px) {
+      .body {
+        height: auto;
+        width: 100vw;
+      }
+    }
+    /* @media (max-width: 576px) {
+    .parallax {
+         
+      }
+  }
+  
+  @media (max-width: 320px) {
+      .title-position {
+        
+      }
+  }
+   */

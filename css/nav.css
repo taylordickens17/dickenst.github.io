@@ -1,56 +1,55 @@
-nav {
+.navbar {
     position: fixed;
+    overflow: hidden;
     width: 100%;
-    line-height: 5px;
+    z-index: 1;
 }
 
-nav ul { 
-    float: right;
-    margin: 0;
-    padding-right: 40px;
-    list-style-type: none; 
-    margin: 0;}
+#navOver {
+    margin-left: 70%;
+}
 
+.fa-bars {
+    color: #ffffff;
+}
 
 nav ul li{
     display: inline-block;
     padding: 30px 30px;
 }
 
-nav a { text-decoration: none; 
+nav a { 
+    text-decoration: none; 
     font-size: 11px;
     letter-spacing: 1.6px;
     text-transform: uppercase;
-}
-
-
-nav a:link { color: #ffffff;}
-
-nav a:hover {color: #000000;
-    text-decoration: none;}	
-
-nav a:visited {
-    color: #ffffff;
 }
 
 nav.purple {
     background-color: var(--fontColorGrey);
-    height: 70px;
     animation-delay: 3s;
     z-index: 6;
 }
 
-.logo {
+#logo {
     color: #ffffff;
-    margin-top: 10em;
+    padding-left: 30px;
     font-size: 11px;
     letter-spacing: 1.6px;
     text-transform: uppercase;
 }
 
-@media (max-width: 576px) {
-    #navbarNav {
-        margin-left: 0;
+@media (max-width: 768px) {
+
+    nav ul li{
+       padding: 10px 30px;
+       overflow: hidden;
     }
  
  }
+
+ /* @media (max-width : 768px) {
+
+
+ @media (max-width: 320px) {
+  */
