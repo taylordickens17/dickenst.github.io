@@ -1,5 +1,5 @@
 .parallax {
-    background: url("https://images.pexels.com/photos/1158961/pexels-photo-1158961.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") fixed;
+    background: url("../assets/pansies.jpeg") fixed;
     background-size: cover;
     color: #484848;
     height: 100vh;
@@ -16,7 +16,7 @@
 }
 
   .paraHeader {
-    font-family: var(--headingFont);
+    font-family: var(--headingFont), SignPainter;
     font-size: 110px;
     color: #ffffff;
   }

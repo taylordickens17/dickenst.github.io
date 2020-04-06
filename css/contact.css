@@ -1,7 +1,5 @@
-
-
 .contactMeHeader{
-    font-family: var(--headingFont);
+    font-family: var(--headingFont), SignPainter;
     font-size: 80px;
     color: var(--fontColorGrey);
 

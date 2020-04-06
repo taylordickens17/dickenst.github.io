@@ -1,5 +1,5 @@
 .aboutTitle {
-    font-family: var(--headingFont);
+    font-family: var(--headingFont),SignPainter;
     color: var(--fontColorGrey);
     font-size: 5em;
     display: flex;
