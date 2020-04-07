@@ -29,17 +29,5 @@
 
 @media only screen and (max-width : 768px) {
   .parallax:after{
-   background-position: center center;
+   background: url("../assets/smaller-blue-hydrengeas.jpg")fixed;
 }
-  /* @media (max-width: 576px) {
-  .parallax {
-       
-    }
-}
-
-@media (max-width: 320px) {
-    .title-position {
-      
-    }
-}
- */
