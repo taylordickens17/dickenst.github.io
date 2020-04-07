@@ -5,11 +5,13 @@
     text-align: center;
 }
 
-.resumeText{
-        color: #484848;
+#resumeLink {
+    text-decoration: none;
 }
 
 .resumeBttn {
+    display: block;
+    margin: 0 auto;
     border: none;
     background-color: var(--fontColorGrey);
     color: white;
@@ -19,14 +21,4 @@
     padding: 10px 40px 10px 40px;
     border-radius: 5px;
     letter-spacing: 2px;
-}
-
-.resumeBttn {
-    margin-left: 45%;
-}
-
-@media (max-width: 576px) {
-    .resumeBttn {
-        margin-left: 34%; /* this looks more centered on mobile */
-    }
 }
