@@ -28,7 +28,8 @@
 }
 
 .card-link:hover {
-  color: #697591;
+  color: #ffffff;
+  background-color: #91a7d7;
 }
 
 .project-container {
