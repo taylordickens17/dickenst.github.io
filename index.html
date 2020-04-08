@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--End Bootstrap-->
+    <!--Animation-->
+    <!--End Animation-->
     <!--CSS Link-->
     <link rel="stylesheet" ref="text/css" href="./css/main.css" />
     <!--End CSS Link-->
@@ -30,6 +32,9 @@
                         <a class="nav-link text-light nav-hover" href="#aboutMe">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-light nav-hover" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-light nav-hover" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
@@ -45,8 +50,8 @@
     <section class="parallax">
         <div class="container">
             <div class="paraContainer title-position">
-                <h1 class="paraHeader">Taylor Dickens</h1>
-                <p class="paraText">Web Developer</p>
+                <h1 class="paraHeader fadeInUpBig">Taylor Dickens</h1>
+                <p class="paraText fadeInUpBig">Web Developer</p>
             </div>
         </div>
     </section>
@@ -64,19 +69,13 @@
             <div class="row">
                 <div class="col-12 mb-5">
                     <div class="aboutMeMain">
-                        <p>I was born and raised in Dallas, Texas and moved to Indianapolis around highschool. I was
-                            enrolled at
-                            Herron School of Art and Design studying Printmaking. Since graduating, I had a couple of
-                            odd jobs.
-                            I worked in an Adidas Warehouse printing t-shirts. It wasn't fullfilling working there. From
-                            there,
-                            I decided to make a career change. I took several semesters at Ivy Tech, taking a couple of
-                            courses
-                            about coding and the theory. The classes were informative and helpful, however, it felt too
-                            slow of
-                            a pace. A year later I enrolled at 1150 Academy to learn basic javascript and persue a
-                            career in
-                            tech.</p>
+                        <p>I graduated from the Herron School of Art and Design with a BFA in Printmaking. While at
+                            Herron, I took a few classes in visual communication, which started my passion for design.
+                            After graduating, I went on to further my studies at Ivy Tech. There I dabbled in
+                            a few coding languages such as Python, HTML, CSS, and basic JavaScript. </p>
+                        <p>Once realizing coding was my newfound passion, I enrolled at Eleven Fifty Academy to refine
+                            my skills. I have learned a considerable amount and I'm always eager to continue learning.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -97,7 +96,50 @@
         <!--End Resume-->
     </section>
     <!--End About Me-->
-    <hr>
+    <hr style="width: 80%;">
+    <!--Skills-->
+    <section id="skills">
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <h1 class="skillsHeader">My Skills</h1>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row skillRows">
+                <div class="col-sm" id="html">
+                    <i class="fab fa-html5" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="css">
+                    <i class="fab fa-css3-alt" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="js">
+                    <i class="fab fa-js" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="boot">
+                    <i class="fab fa-bootstrap" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="git">
+                    <i class="fab fa-github" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="react">
+                    <i class="fab fa-react" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="node">
+                    <i class="fab fa-node" style="font-size: 35px"></i>
+                </div>
+                <div class="col-sm" id="figma">
+                    <i class="fab fa-figma" style="font-size: 35px"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <!--End Skills-->
+    <hr style="width: 80%;">
     <!--Porfolio-->
     <a id="projects"></a>
     <br>
@@ -116,7 +158,7 @@
                         button. There
                         is a blossom animation effect over the layout. Once generated, the movies are displayed in a
                         container that is scrollable.</p>
-                    <a href="https://td-ghibli-api-c0135.firebaseapp.com" class="card-link">See Live</a>
+                    <a href="https://td-ghibli-api-c0135.firebaseapp.com" class="card-link">Go See</a>
                 </div>
             </div>
             <div class="card" style="max-width: 22rem;">
@@ -126,7 +168,8 @@
                     <p class="card-text">This app lets users signup and login with their own account. People can log,
                         update,
                         and delete their favorite book, while seeing other users favorite books.</p>
-                    <a href="https://td-client-zebookreviewapp2020.herokuapp.com/" class="card-link">See Live</a>
+                    <br>
+                    <a href="https://td-client-zebookreviewapp2020.herokuapp.com/" class="card-link">Go See</a>
                 </div>
             </div>
         </div>
@@ -135,7 +178,7 @@
         <br>
     </section>
     <!--End Portfolio-->
-    <hr>
+    <hr style="width: 80%;">
     <!--Contact-->
     <section id="contact">
         <div class="container">
@@ -187,10 +230,10 @@
     <section>
         <footer>
             <div class="footerContainer">
-                <a class="icons" href="https://www.linkedin.com/in/justintaylordickens/"><i
-                        class="fa fa-linkedin-square" style="font-size:36px;color:white"></i></a>
-                <a href="https://github.com/taylordickens17" class="icons">
-                    <i class="fa fa-github-square" style="font-size:36px;color:white"></i></i>
+                <a href="https://www.linkedin.com/in/justintaylordickens/"><i class="fa fa-linkedin-square"
+                        style="font-size:36px;color:white" class="icons"></i></a>
+                <a href="https://github.com/taylordickens17">
+                    <i class="fa fa-github-square" style="font-size:36px;color:white" class="icons"></i></i>
                 </a>
                 <p id="footerCopy">© Taylor Dickens 2020</p>
             </div>

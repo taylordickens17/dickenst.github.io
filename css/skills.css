@@ -1,0 +1,44 @@
+.skillsHeader {
+    font-family: var(--headingFont), SignPainter;
+    color: var(--fontColorGrey);
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.skillRows {
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+#html:hover{
+    color: grey;
+}
+
+#css:hover{
+    color: grey;
+}
+
+#js:hover{
+    color: grey;
+}
+
+#boot:hover{
+    color: grey;
+}
+
+#git:hover{
+    color: grey;
+}
+
+#react:hover{
+    color: grey;
+}
+
+#node:hover{
+    color: grey;
+}
+
+#figma:hover{
+    color: grey;
+}

@@ -24,11 +24,11 @@
   padding: 5px 7px;
   border: 1px solid #91a7d7;
   border-radius: 3px;
-  color: #91a7d7
+  color: #91a7d7;
 }
 
 .card-link:hover {
-  color: #697591
+  color: #697591;
 }
 
 .project-container {

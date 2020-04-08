@@ -19,17 +19,52 @@
     font-family: var(--headingFont), SignPainter;
     font-size: 110px;
     color: #ffffff;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
   }
 
   .paraText {
     color: #ffffff;
     font-weight: bold;
     letter-spacing: 10px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
   }
+
+  @-webkit-keyframes fadeInUpBig {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(2000px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+ }
+ 
+ @keyframes fadeInUpBig {
+    0% {
+       opacity: 0;
+       transform: translateY(2000px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+ 
+ .fadeInUpBig {
+    -webkit-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig;
+ }
 
 @media only screen and (max-width : 375px) {
   .parallax{
-   background: url("../assets/smaller-blue-hydrengeas.jpg");
+   background: linear-gradient( #91a7d7, #697591);
    background-position: center center;
   }
 }
